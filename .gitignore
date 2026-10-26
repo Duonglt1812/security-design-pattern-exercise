@@ -18,3 +18,5 @@ Thumbs.db
 
 # Docker & MinIO data volume
 minio_data/
+
+Thiết kế cho bảo mật - Design pattern.pdf
