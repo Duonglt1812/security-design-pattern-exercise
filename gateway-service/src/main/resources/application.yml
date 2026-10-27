@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gateway-service
+
+services:
+  user-service-url: ${USER_SERVICE_URL:http://localhost:8081}
+  order-service-url: ${ORDER_SERVICE_URL:http://localhost:8082}
+
+jwt:
+  secret: MySecretKeyForJwtSigningMustBeVeryLongAndSecure1234567890
